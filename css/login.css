@@ -1,0 +1,49 @@
+.login{
+    border-left:3px dashed rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.6);
+}
+.loginList{
+    padding-top:100px;
+}
+.loginList li{
+    font-size:1.2em;
+    margin-bottom:3vh;
+}
+.liContent{
+    width:30%;
+}
+.liContent label{
+    margin-top:10px;
+    font-weight:800;
+}
+.liContent input {
+    outline:none;
+    border:none;
+    padding:10px;
+    border-bottom:3px solid  rgba(0,0,0,0.3);
+    font-size:1sem;
+    background-color:transparent;
+}
+.loginList li:nth-child(2){
+    margin-bottom:4vh;
+}
+
+.loginImg{
+    margin-top:50px;
+    width:70%;
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+.loginImg:hover{
+    width:75%;
+    transition: all 0.2s ease-in;
+}
+
+.loginBtn{
+    background:none;
+    border:none;
+}
+
+#greeting{
+    font-size:1.5em;
+    padding-top:100px;
+}

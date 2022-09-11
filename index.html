@@ -1,1 +1,72 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/randomBg.css">
+    <link rel="stylesheet" href="css/quote.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <title>World Traveler</title>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div class="clock">
+                <h1 id="clockText"></h1>
+            </div>
+            <div class="todo">
+                <form id="todo-form">
+                    <input type="text" placeholder="✈ 다음에 가고 싶은 여행지" required />
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="quote"></div>
+        </section>
+        <section>
+            <div class="weather">
+                <div class="weatherContainer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="login">
+                <form id="login-form">
+                    <ul class="loginList">
+                        <li>
+                            <span class="liContent"><label for="">FLIGHT ID</label>&emsp;</span>
+                            <span class="liContent"><input type="text" /></span>
+                        </li>
+                        <!-- <li>
+                            <span class="liContent"><label for="">FLIGHT PW</label>&emsp;</span>
+                            <span class="liContent"><input type="password" /></span>
+                        </li> -->
+                        <li >
+                            <button class="loginBtn"><img class="loginImg" src="img/login.png"/></button>
+                        </li>
+                    </ul>
+                </form>
+                <h1 id="greeting" class="hidden"></h1>
+            <button id="logout" class="hidden loginBtn"><img class="loginImg" src="img/logout.png"/></button>
+            </div>
+            <div class="author"></div>
+        </section>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/randomBg.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
